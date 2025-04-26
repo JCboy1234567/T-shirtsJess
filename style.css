@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo-bg{
+    background: rgba(82, 80, 77, 0.555);
+    padding: 1%;
+    width: 99vw;
+    position: fixed;
+}
+.background{
+    background-image: url(image/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 98.7vw;
+    height: 87vh;
+    background-attachment: fixed;
+}
+.background h1{
+   padding-top: 20%;
+   padding-left: 15.5%;
+   letter-spacing: 10px;
+   color: white;
+   font-size: 60px;
+   text-shadow: 10px 10px 5px rgb(119, 119, 119);
+}
+.logo-bg h1{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 8px;
+    padding-left: 1%;
+}
+.logo-bg h1:hover{
+    color: rgb(230, 198, 138);
+    transition: 0.5s;
+}
+.logo-bg a{
+    text-decoration: none;
+    color: white;
+}
+.option a{
+    margin-left: 10%;
+    font-size: larger;
+}
+.option a:hover{
+    text-shadow: 10px 10px 10px white;
+    margin-top: -1%;
+    transition: 0.5s;
+}
+.option{
+    padding-top: -2.5%;
+    display: flex;
+    margin-left: 30%;
+    margin-top: -2%;
+}
+.sign-letter h1{
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 2%;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sign{
+    background: linear-gradient(to bottom, rgb(131, 131, 131), rgb(197, 193, 193));
+    width: 98.7vw;
+    padding-bottom: 2%;
+}
+.image img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    height: 45vh;
+    border-radius: 5%;
+}
+
+.display-bg{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+}
+.display-image{
+    background-color: rgba(97, 97, 97, 0.315);
+    padding: 1%;
+    border: 10px rgb(97, 97, 97) solid;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 10px white;
+   
+}
+.display-image:hover{
+    margin-top: -1%;
+    box-shadow:0px 0px 20px rgb(97, 97, 97) ;
+    transition: 0.5s;
+}
+.mens h1{
+    margin-left: 2%;
+    letter-spacing: 15px;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mens{
+    border-bottom: 5px rgb(97, 97, 97) solid;
+}
+.viewall a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+}
+.viewall{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+    margin-left: 4%;
+    padding: 0.5%;
+    border: 5px rgb(97, 97, 97) solid;
+    width: 15%;
+    justify-content: center;
+}
+.viewall:hover{
+    margin-left: 1%;
+    box-shadow:7px 7px 10px rgb(97, 97, 97);
+    transition: 0.5s;
+}
+.landing{
+    background-image: url(image/main-image.jpg);
+    width: 90vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(97, 97, 97);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landing h1{
+    letter-spacing: 10px;
+    margin-bottom: 2%;
+    font-size: 50px;
+}
+.logos img{
+    width: 3vw;
+    height: 7vh;
+    margin-top: 6%;
+    border-radius: 10%;
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    margin-top: 5%;
+    
+}
+.logos img:hover{
+    margin-left: -3%;
+    box-shadow: 5px 5px 10px rgb(97, 97, 97);
+    border-radius: 20%;
+    transition: 0.5s;
+}
+.explore a{
+    text-decoration: none;
+    color: white;
+}
+.explore a:hover{
+    text-shadow: 5px 5px 10px white;
+    transition: 0.5s;
+}
+.explore{
+    background-color: rgba(97, 97, 97, 0.322);
+    border: 5px rgb(97, 97, 97) solid;
+    width: 10%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    border-radius: 20%;
+}
+.explore:hover{
+    margin-left: -1%;
+    box-shadow: 5px 5px 10px white;
+    transition: 0.5s;
+}
+
+
